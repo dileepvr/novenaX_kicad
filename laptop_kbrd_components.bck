@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0  Date: Sun 08 Nov 2015 07:12:13 PM PST
+#
+$CMP DPST
+D Interrupteur double
+K switch
+$ENDCMP
+#
+$CMP DPST_SMALL
+D Interrupteur double
+K switch
+$ENDCMP
+#
+$CMP LED_1206
+K LED
+$ENDCMP
+#
+$CMP POT
+D Potentionmetre
+K R
+$ENDCMP
+#
+$CMP TACT_DPST
+D Interrupteur double
+K switch
+$ENDCMP
+#
+#End Doc Library
