@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "10 nov 2015"
+Date "14 nov 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -280,12 +280,12 @@ $EndComp
 $Comp
 L GND #PWR06
 U 1 1 563D8E9D
-P 7200 3450
-F 0 "#PWR06" H 7200 3450 30  0001 C CNN
-F 1 "GND" H 7200 3380 30  0001 C CNN
-F 2 "" H 7200 3450 60  0000 C CNN
-F 3 "" H 7200 3450 60  0000 C CNN
-	1    7200 3450
+P 7200 3500
+F 0 "#PWR06" H 7200 3500 30  0001 C CNN
+F 1 "GND" H 7200 3430 30  0001 C CNN
+F 2 "" H 7200 3500 60  0000 C CNN
+F 3 "" H 7200 3500 60  0000 C CNN
+	1    7200 3500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1304,17 +1304,11 @@ Wire Wire Line
 Wire Wire Line
 	5300 3200 5300 3300
 Wire Wire Line
-	7300 3350 7200 3350
-Wire Wire Line
-	7200 3350 7200 3450
-Wire Wire Line
 	9200 3200 9100 3200
 Wire Wire Line
 	9100 3200 9100 3300
 Wire Wire Line
 	9200 3200 9200 3850
-Wire Wire Line
-	7300 3350 7300 4100
 Wire Wire Line
 	5400 3200 5400 3850
 Wire Wire Line
@@ -1920,4 +1914,10 @@ Wire Wire Line
 Connection ~ 8500 4750
 Connection ~ 8500 4950
 Connection ~ 7800 4950
+Wire Wire Line
+	7200 3500 7200 3450
+Wire Wire Line
+	7200 3450 7300 3450
+Wire Wire Line
+	7300 3450 7300 4100
 $EndSCHEMATC
