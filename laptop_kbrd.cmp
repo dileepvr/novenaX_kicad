@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Fri 13 Nov 2015 09:48:35 PM PST
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Tue 17 Nov 2015 08:05:16 AM PST
 
 BeginCmp
 TimeStamp = /56402B6E;
@@ -404,13 +404,6 @@ TimeStamp = /563E2229;
 Reference = U2;
 ValeurCmp = RT9706;
 IdModule  = SOT23-5_DR;
-EndCmp
-
-BeginCmp
-TimeStamp = /56403FC5;
-Reference = U3;
-ValeurCmp = RCLAMP0502B;
-IdModule  = SOT523;
 EndCmp
 
 BeginCmp

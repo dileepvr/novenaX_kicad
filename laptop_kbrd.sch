@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "14 nov 2015"
+Date "17 nov 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1391,8 +1391,6 @@ Wire Wire Line
 	750  3650 750  4250
 Connection ~ 1000 4250
 Wire Wire Line
-	8500 5350 10200 5350
-Wire Wire Line
 	10200 5250 9450 5250
 Wire Wire Line
 	10200 5150 9350 5150
@@ -1861,40 +1859,6 @@ $EndComp
 Connection ~ 9450 6950
 Connection ~ 9450 6550
 $Comp
-L RCLAMP0502B U3
-U 1 1 56403FC5
-P 8100 6450
-F 0 "U3" V 8450 6450 60  0000 C CNN
-F 1 "RCLAMP0502B" V 7800 6400 60  0000 C CNN
-F 2 "" H 8100 6450 60  0000 C CNN
-F 3 "" H 8100 6450 60  0000 C CNN
-	1    8100 6450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR027
-U 1 1 56403FE1
-P 8700 6600
-F 0 "#PWR027" H 8700 6600 30  0001 C CNN
-F 1 "GND" H 8700 6530 30  0001 C CNN
-F 2 "" H 8700 6600 60  0000 C CNN
-F 3 "" H 8700 6600 60  0000 C CNN
-	1    8700 6600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8600 6450 8700 6450
-Wire Wire Line
-	8700 6450 8700 6600
-Wire Wire Line
-	7650 6300 7250 6300
-Wire Wire Line
-	7650 6600 7250 6600
-Text Label 7250 6300 0    60   ~ 0
-D+
-Text Label 7250 6600 0    60   ~ 0
-D-
-$Comp
 L C C8
 U 1 1 56417885
 P 8150 4950
@@ -1920,4 +1884,12 @@ Wire Wire Line
 	7200 3450 7300 3450
 Wire Wire Line
 	7300 3450 7300 4100
+Wire Wire Line
+	8650 5350 8650 5150
+Wire Wire Line
+	8650 5150 7900 5150
+Wire Wire Line
+	7900 5150 7900 5350
+Wire Wire Line
+	8650 5350 10200 5350
 $EndSCHEMATC
