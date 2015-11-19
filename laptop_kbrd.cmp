@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Tue 17 Nov 2015 08:05:16 AM PST
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Wed 18 Nov 2015 07:49:58 PM PST
 
 BeginCmp
 TimeStamp = /56402B6E;
@@ -136,6 +136,13 @@ EndCmp
 BeginCmp
 TimeStamp = /56402FB2;
 Reference = K1;
+ValeurCmp = CASE_OPEN;
+IdModule  = 3pin_FPC;
+EndCmp
+
+BeginCmp
+TimeStamp = /564D4485;
+Reference = K2;
 ValeurCmp = CASE_OPEN;
 IdModule  = 3pin_FPC;
 EndCmp
@@ -372,6 +379,13 @@ IdModule  = SM1206;
 EndCmp
 
 BeginCmp
+TimeStamp = /564D4496;
+Reference = R23;
+ValeurCmp = 47K;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
 TimeStamp = /563E2116;
 Reference = SW1;
 ValeurCmp = MCU_RST;
@@ -390,6 +404,13 @@ TimeStamp = /563E2221;
 Reference = SW3;
 ValeurCmp = POWER;
 IdModule  = TACT_SW;
+EndCmp
+
+BeginCmp
+TimeStamp = /564D448B;
+Reference = SW4;
+ValeurCmp = CASE_PUSH;
+IdModule  = PUSH_BT;
 EndCmp
 
 BeginCmp
