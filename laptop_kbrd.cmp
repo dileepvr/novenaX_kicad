@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Mon 22 Feb 2016 10:13:21 PM PST
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Sun 06 Mar 2016 06:49:32 PM PST
 
 BeginCmp
 TimeStamp = /56402B6E;
@@ -753,7 +753,7 @@ BeginCmp
 TimeStamp = /56646F09/56932F53;
 Reference = U9;
 ValeurCmp = USB_A_FEMALE;
-IdModule  = USB_A;
+IdModule  = USB_A_DR;
 EndCmp
 
 BeginCmp
@@ -781,7 +781,7 @@ BeginCmp
 TimeStamp = /56646F09/56947C1D;
 Reference = U13;
 ValeurCmp = AT97SC3205T;
-IdModule  = QFN32;
+IdModule  = QFN32_DR;
 EndCmp
 
 BeginCmp
