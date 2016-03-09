@@ -1,6 +1,6 @@
-update=Sun 06 Mar 2016 10:45:16 PM PST
+update=Tue 08 Mar 2016 08:15:26 PM PST
 version=1
-last_client=kicad
+last_client=eeschema
 [cvpcb]
 version=1
 NetIExt=net
@@ -44,6 +44,8 @@ LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
 LibName17=laptop_kbrd
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -84,6 +86,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=laptop_kbrd_components
-LibName32=/tech/kicad/spin_half/spin_half
-[general]
-version=1
+LibName32=spin_half
