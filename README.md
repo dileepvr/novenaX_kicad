@@ -3,6 +3,8 @@ Novena-X project, which aims to build a laptop around the Novena
 motherboard released by Kosagi. These design files are being released
 (as of this writing on the 30th of April, 2016) under the CERN Open
 Hardware License v1.2 (see file LICENSE.txt for text of the license).
+All future versions of the CERN Open Hardware License automatically
+apply.
 
 For more information about the Novena motherboard, visit: http://www.kosagi.com/w/index.php?title=Novena_Main_Page
 
