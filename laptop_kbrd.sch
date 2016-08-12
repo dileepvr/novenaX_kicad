@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title ""
-Date "6 mar 2016"
+Date "12 aug 2016"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1005,7 +1005,7 @@ F 3 "" H 3000 6950 60  0000 C CNN
 $EndComp
 Text Label 6300 4750 2    60   ~ 0
 5V_DELAYED
-Text Label 3250 7400 0    60   ~ 0
+Text Label 6300 5800 3    60   ~ 0
 GPT_CMPOUT3
 NoConn ~ 4300 1350
 NoConn ~ 4300 2050
@@ -1071,7 +1071,7 @@ F 3 "~" H 3500 7500 30  0000 C CNN
 $EndComp
 Text Label 2400 7250 0    60   ~ 0
 5V_DELAYED
-Text Label 6300 5800 3    60   ~ 0
+Text Label 3250 7400 0    60   ~ 0
 EPIT1_EPIT0
 $Comp
 L C C6
