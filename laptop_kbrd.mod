@@ -1,9 +1,10 @@
-PCBNEW-LibModule-V1  Fri Mar 18 09:41:40 2016
+PCBNEW-LibModule-V1  Mon Aug 15 13:49:15 2016
 # encoding utf-8
 Units mm
 $INDEX
 0WXJ4F
 2pin_JUMPER_SMD
+2pin_SMD
 3pin_FPC
 4pin_0.1inch
 7pin_0.1inch
@@ -338,6 +339,29 @@ Ne 0 ""
 Po 3.7084 -0.0508
 $EndPAD
 $EndMODULE 2pin_JUMPER_SMD
+$MODULE 2pin_SMD
+Po 0 0 0 15 57B22ACA 00000000 ~~
+Li 2pin_SMD
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -3.2004 1 1 0 0.15 N V 21 N "2pin_SMD"
+T1 0 2.4892 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" R 1 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.27 -0.0508
+$EndPAD
+$PAD
+Sh "2" R 1 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.27 -0.0508
+$EndPAD
+$EndMODULE 2pin_SMD
 $MODULE 3pin_FPC
 Po 0 0 0 15 56EC2FC0 00000000 ~~
 Li 3pin_FPC
