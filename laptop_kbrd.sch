@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title ""
-Date "15 aug 2016"
+Date "28 jan 2018"
 Rev ""
 Comp ""
 Comment1 ""
@@ -2012,4 +2012,11 @@ F 3 "" H 5100 4800 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	5100 4750 5100 4800
+NoConn ~ 7100 4950
+NoConn ~ 7650 6300
+NoConn ~ 7650 6100
+NoConn ~ 7900 5550
+NoConn ~ 8500 5350
+NoConn ~ 700  2800
+NoConn ~ 700  3000
 $EndSCHEMATC
