@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Wed Jan 31 11:24:20 2018
+PCBNEW-LibModule-V1  Sat Feb  3 12:01:16 2018
 # encoding utf-8
 Units mm
 $INDEX
@@ -14,6 +14,7 @@ BME280
 EPAPER_V2
 NHD_0440AZ_FL_YBW
 PUSH_BT
+Pixel_qi_breakout
 QFN32_DR
 SM1206_ALS
 SOT23-5_DR
@@ -696,7 +697,7 @@ Po -1.25 -0.975
 $EndPAD
 $EndMODULE BME280
 $MODULE EPAPER_V2
-Po 0 0 0 15 56CBEE40 00000000 ~~
+Po 0 0 0 15 5A760C05 00000000 ~~
 Li EPAPER_V2
 Sc 0
 AR 
@@ -771,70 +772,70 @@ Sh "10" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po -3.0226 -4.7498
+Po -2.54 -8.6614
 $EndPAD
 $PAD
 Sh "11" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po -2.9718 -2.0574
+Po -4.8514 -8.6868
 $EndPAD
 $PAD
 Sh "12" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po -2.9718 0.4826
+Po -7.239 -8.6614
 $EndPAD
 $PAD
 Sh "13" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po -2.9266 10.795
+Po -2.5202 9.0932
 $EndPAD
 $PAD
 Sh "14" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po -2.9266 8.255
+Po -2.5202 6.6548
 $EndPAD
 $PAD
 Sh "15" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po -2.9266 5.715
+Po -2.5202 4.0894
 $EndPAD
 $PAD
 Sh "16" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po -2.9266 3.0226
+Po -2.5202 1.4732
 $EndPAD
 $PAD
 Sh "17" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po -2.9774 -7.1882
+Po -2.4892 -1.0414
 $EndPAD
 $PAD
 Sh "18" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po -2.9774 -9.7282
+Po -2.5202 -3.5814
 $EndPAD
 $PAD
 Sh "19" C 1.397 1.397 0 0 0
 Dr 0.8128 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po -2.9774 -12.2682
+Po -2.5202 -6.096
 $EndPAD
 $EndMODULE EPAPER_V2
 $MODULE NHD_0440AZ_FL_YBW
@@ -974,6 +975,183 @@ Ne 0 ""
 Po 6.25 3.81
 $EndPAD
 $EndMODULE PUSH_BT
+$MODULE Pixel_qi_breakout
+Po 0 0 0 15 5A75FA73 00000000 ~~
+Li Pixel_qi_breakout
+Sc 0
+AR 
+Op 0 0 0
+T0 0.1016 -4.8514 1 1 0 0.15 N V 21 N "Pixel_qi_breakout"
+T1 0.4318 -6.477 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -10 0
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "2" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -9 -2.5
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "3" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -8 0
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "4" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -7 -2.5
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "5" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -6 0
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "6" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5 -2.5
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "7" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4 0
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "8" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3 -2.5
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "9" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2 0
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "10" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1 -2.5
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "11" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "12" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1 -2.5
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "13" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2 0
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "14" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3 -2.5
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "15" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4 0
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "16" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5 -2.5
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "17" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6 0
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "18" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 7 -2.5
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "19" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 8 0
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "20" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 9 -2.5
+.LocalClearance 0.1
+$EndPAD
+$PAD
+Sh "21" R 1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 10 0
+.LocalClearance 0.1
+$EndPAD
+$EndMODULE Pixel_qi_breakout
 $MODULE QFN32_DR
 Po 0 0 0 15 56DD1E39 00000000 ~~
 Li QFN32_DR

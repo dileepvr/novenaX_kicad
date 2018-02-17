@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Wed Jan 31 11:26:48 2018
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Sat Feb  3 10:09:18 2018
 
 BeginCmp
 TimeStamp = /56402B6E;
@@ -949,7 +949,7 @@ BeginCmp
 TimeStamp = /56646F09/5A6D2824;
 Reference = U15;
 ValeurCmp = PIXEL_QI_IPEX_BREAKOUT;
-IdModule  = SOT23_8;
+IdModule  = Pixel_qi_breakout;
 EndCmp
 
 BeginCmp
